@@ -1,0 +1,14 @@
+// src/sections/About.scss
+.about {
+  color: #333;
+
+  h1 {
+    font-size: 2.5rem; // Taille du titre
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem; // Taille du texte
+    line-height: 1.6;
+  }
+}
