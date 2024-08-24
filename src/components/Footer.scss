@@ -1,0 +1,36 @@
+.footer-container {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-links {
+  margin: 20px 0;
+}
+
+.social-links a {
+  color: #61dafb;
+  margin: 0 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+.legal-links a {
+  color: #61dafb;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.legal-links a:hover {
+  text-decoration: underline;
+}

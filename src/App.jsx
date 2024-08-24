@@ -3,7 +3,16 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import "./App.scss"; // Assure-toi d'importer les styles
+import Footer from "./components/Footer";
+import "./App.scss";
+
+import "aos/dist/aos.css";
+import AOS from "aos";
+
+AOS.init({
+  duration: 1000,
+  once: true,
+});
 
 const App = () => (
   <div className="app-container">
@@ -14,6 +23,7 @@ const App = () => (
       <Portfolio />
       <Contact />
     </main>
+    <Footer />
   </div>
 );
 

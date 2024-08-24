@@ -16,16 +16,14 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 1rem;
+  background-color: #242424;
   color: white;
   box-sizing: border-box;
   z-index: 1000;
-  opacity: 0; // Initialement caché pour l'animation
-  transform: translateY(
-    -20px
-  ); // Initialement déplacé vers le haut pour l'animation
-  animation: fadeInUp 0.6s ease-out forwards; // Animation pour le header
-  animation-delay: 0.2s; // Délai avant le début de l'animation (ajustez selon vos besoins)
+  opacity: 1;
+  transform: translateY(-20px);
+  animation: fadeInUp 0.6s ease-out forwards;
+  animation-delay: 0.2s;
 
   .logo-link {
     margin-left: 2rem;
@@ -35,12 +33,10 @@
     padding: 0.5rem;
     display: flex;
     align-items: center;
-    opacity: 0; // Initialement caché pour l'animation
-    transform: translateY(
-      20px
-    ); // Initialement déplacé vers le bas pour l'animation
-    animation: fadeInUp 0.6s ease-out forwards; // Animation pour le logo
-    animation-delay: 0.4s; // Délai avant le début de l'animation (ajustez selon vos besoins)
+    opacity: 1;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease-out forwards;
+    animation-delay: 0.4s;
   }
 
   .logo {
@@ -56,12 +52,10 @@
     padding: 0;
     display: flex;
     align-items: center;
-    opacity: 0; // Initialement caché pour l'animation
-    transform: translateY(
-      20px
-    ); // Initialement déplacé vers le bas pour l'animation
-    animation: fadeInUp 0.6s ease-out forwards; // Animation pour les liens
-    animation-delay: 0.6s; // Délai avant le début de l'animation (ajustez selon vos besoins)
+    opacity: 1;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease-out forwards;
+    animation-delay: 0.6s;
   }
 
   a {
@@ -80,4 +74,8 @@
       background-color: rgba(255, 255, 255, 0.2);
     }
   }
+}
+
+.main-content {
+  padding-top: 60px;
 }

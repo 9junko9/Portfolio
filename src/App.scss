@@ -1,25 +1,23 @@
 // src/App.scss
 
 #root {
-  max-width: calc(
-    1280px + 20px
-  ); // Ajuste la largeur maximale pour compenser les espaces à gauche et à droite
-  margin: 0 auto; // Centre le conteneur horizontalement
-  padding: 2rem 10px; // Ajoute un espace de 10px à gauche et à droite, et conserve 2rem de padding au-dessus et en dessous
+  max-width: calc(1280px + 20px);
+  margin: 0 auto;
+  padding: 2rem 10px;
   text-align: center;
 }
 // src/App.scss
 
 .app-container {
-  padding: 0 10px; // Ajoute un espace de 10px à gauche et à droite
-  box-sizing: border-box; // Inclut le padding dans la largeur totale
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 main {
-  max-width: 1280px; // Ajuste la largeur maximale pour le contenu principal
-  margin: 0 auto; // Centre le contenu horizontalement
-  padding: 2rem 0; // Ajoute du padding en haut et en bas
-  text-align: left; // Assure que le texte n'est pas centré
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 0;
+  text-align: left;
 }
 
 @keyframes logo-spin {
