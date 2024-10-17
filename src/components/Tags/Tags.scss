@@ -1,0 +1,20 @@
+.tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+
+  &__item {
+    background-color: cadetblue;
+    padding: 4px 8px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,88 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding: 3rem;
+  margin-top: 50px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(240, 240, 240, 0.9),
+    rgba(224, 224, 224, 0.9)
+  ); // Fond harmonisé
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+
+  &__message {
+    border: 1px solid rgb(82 137 82);
+    background-color: rgb(95 211 95);
+    border-radius: 15px;
+    padding: 30px 50px;
+    text-align: center;
+    margin-top: 20px;
+
+    &--error {
+      border: 1px solid rgb(65, 8, 16);
+      background-color: rgb(189, 54, 61);
+      border-radius: 15px;
+    }
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+
+    input,
+    textarea {
+      border: 1px solid rgb(193, 193, 193);
+      border-radius: 10px;
+      margin-bottom: 15px;
+      padding: 10px 15px;
+      font-size: 20px;
+      background-color: beige;
+      color: black;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: rgb(157, 157, 157);
+    }
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+    }
+
+    .form__send {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+
+      button {
+        padding: 8px 60px;
+        border: none;
+        border-radius: 4px;
+        background-color: cadetblue;
+        color: black;
+        font-size: 14px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}

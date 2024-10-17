@@ -1,12 +1,9 @@
-// src/App.scss
-
 #root {
   max-width: calc(1280px + 20px);
   margin: 0 auto;
   padding: 2rem 10px;
   text-align: center;
 }
-// src/App.scss
 
 .app-container {
   padding: 0 10px;
@@ -18,27 +15,4 @@ main {
   margin: 0 auto;
   padding: 2rem 0;
   text-align: left;
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

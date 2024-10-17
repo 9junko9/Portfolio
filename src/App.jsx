@@ -1,18 +1,10 @@
-import Header from "./components/Header";
-import About from "./pages/About";
-import Skills from "./pages/Skills";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import About from "./pages/About/About";
+import Skills from "./pages/Skills/Skills";
+import Portfolio from "./pages/Portfolio/Portfolio";
+import Contact from "./pages/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import "./App.scss";
-
-import "aos/dist/aos.css";
-import AOS from "aos";
-
-AOS.init({
-  duration: 1000,
-  once: true,
-});
 
 const App = () => (
   <div className="app-container">
