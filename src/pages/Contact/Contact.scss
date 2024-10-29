@@ -54,11 +54,6 @@
       color: black;
     }
 
-    input::placeholder,
-    textarea::placeholder {
-      color: rgb(157, 157, 157);
-    }
-
     input:focus,
     textarea:focus {
       outline: none;
